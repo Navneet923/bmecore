@@ -1,0 +1,76 @@
+.pdf-page-template {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+
+}
+  
+.pdf-page-template .pdf-header {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  right: 30px;
+  border-bottom: 1px solid #000;
+  color: #000;
+  padding-bottom: 5px;
+}
+  
+.pdf-page-template .pdf-footer {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  border-top: 1px solid #000;
+  text-align: center;
+  color: #000;
+  font-size: 11px;
+}
+
+  .pdf-header-logo{
+    display:inline-block; 
+    margin-right: 5px;
+  }
+  .pdf-header-title{
+    display:inline-block; 
+  }
+
+  .customer-pdf-header{
+    display: none;
+  }
+  // html to pdf convert
+  kendo-pdf-page .customer-pdf-header {      
+    border-bottom:1px solid #e5e5e5;
+    font-size:18px;
+    font-weight:bold;
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+// added for chart pdf header on dashboard
+kendo-pdf-page .chart-pdf{
+  &.customer-pdf-header {
+    margin-top: 10px;
+    position:static;
+    border-bottom:none;
+  }
+  .page-break {
+    display: block;
+    margin-top:60px;
+    border-top: 1px solid #000;
+  }
+  .pdf-header-title{
+   font-weight: normal;
+  }
+}
+
+    .pdf-footer-left{
+      float: left;
+    }
+
+    .pdf-footer-right{
+      float: right;
+    }

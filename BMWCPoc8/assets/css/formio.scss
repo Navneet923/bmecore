@@ -1,0 +1,109 @@
+.custom-inline-input,
+.custom-form-renderer .form-group.formio-component {
+    display: flex;
+    flex-wrap: wrap;
+    .form-control {
+        flex: 0 0 55%;
+        max-width: 55%;
+        margin-right: 15px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+    .col-form-label,
+    .control-label,
+    app-label-hyperlink {
+        flex: 0 0 35%;
+        max-width: 35%;
+        // padding-top: calc(.375rem + 1px);
+        // padding-bottom: calc(.375rem + 1px);
+        margin-bottom: 0;
+        line-height: 1.5;
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-weight: 600;
+    }
+}
+
+.custom-inline-input .col-form-label .custom-select,
+.custom-form-renderer .form-group.formio-component .col-form-label .custom-select {
+    margin-top: -8px;
+}
+
+.custom-select {
+    height: calc(1.0em + 0.75rem + 2px);
+    font-size: 0.8rem;
+    padding-top: 4px;
+}
+
+.custom-form-renderer formio-alerts {
+    display: none;
+}
+
+.formio-dialog {
+    z-index: 11000 !important;
+    &.formio-dialog-theme-default {
+        padding-bottom: 0 !important;
+        padding-top: 10px !important;
+    }
+    .formio-component.formio-component-tabs.formio-component-tabs {
+        .nav.nav-tabs {
+            li:not(:first-child) {
+                // li {
+                //display:none !important;
+            }
+            li:nth-child(4n) {
+                display: list-item !important;
+            }
+        }
+    }
+    .formio-dialog-close::before {
+        content: "X" !important;
+        font-size: 16px !important;
+    }
+    .formio-dialog-content>div>div>div.row>div>div.pull-right {
+        display: none !important;
+    }
+}
+
+.custom-form-renderer .form-group.alert.alert-danger {
+    padding: 0;
+    background: transparent;
+    label {
+        color: #373a3c
+    }
+}
+
+.custom-form-area {
+    margin-top: 15px;
+    #group-panel-advanced,
+    #group-panel-layout,
+    #group-panel-data {
+        // display: none !important;
+    }
+    //added for disabled setting of column
+    .formio-component-columns.formio-component-columns2.formio-component:hover>.component-btn-group {
+        display: none !important;
+    }
+    // added for hide submit button on builder form
+    .formio-component-submit {
+        margin-bottom: 0 !important;
+        #submit {
+            display: none !important;
+        }
+    }
+    .formarea.drag-container {
+        padding: 0 !important;
+        height: 100% !important;
+        min-height: 100% !important;
+    }
+    .row.formio-component-columns {
+        margin: -2px -1px !important;
+    }
+}
+
+.l_h_1 {
+    line-height: 1;
+}

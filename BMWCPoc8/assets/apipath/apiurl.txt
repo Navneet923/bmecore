@@ -1,0 +1,31 @@
+{
+  "apiurl" : "http://172.16.12.247/BmWeb/api",
+  "daurl" : "http://172.16.12.247",
+  "appVersion": "BMW 8.72.38.000.23",
+  "socketUrl": "http://172.16.12.170:82",
+  "whatsNew" :"https://kb.batchmaster.in/",
+  "adminUrl":"https://payments.batchmaster.co.in/api/v1"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

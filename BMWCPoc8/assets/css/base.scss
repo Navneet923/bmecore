@@ -1,0 +1,154 @@
+/**********************************************************************/
+/******************************variable start****************************/
+/**********************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,600,700&display=swap');
+$primary-font:'Quicksand', Geneva, sans-serif;
+$body-bg-default-color :#eeeeee;
+$body-bg-prime-color : #f4f3ef;
+$body-font-prime-color : #514d6a;
+$white : #fff;
+$black:#000;
+$gray-666:#666;
+$gray-595959:#595959;
+$gray-595959-hover:#797878;
+$gray-c3c3c3:#c3c3c3;
+
+//elegant theme variable
+$body-bg-elegant-color : #e9e9e9;
+$body-font-elegant-color : #0582be;
+$theme-elegant:#374359;
+$theme-elegant-hover:#434343;
+$theme-elegant-sidebar:#fafafa;
+$theme-elegant-sidebar-border:#eeeeee;
+$theme-elegant-grid-bg:#fafafa;
+$theme-elegant-grid-btn-border:#d5d5d5;
+$theme-elegant-menu-color:#898989;
+$theme-elegant-anchor:#e08600;
+$theme-elegant-menu-hover-bg:#edeef2;
+$theme-elegant-sub-menu-box-shadow:#505050;
+$theme-elegant-sub-menu-box-mask:rgba(0,0,0,0.5);
+$theme-elegant-sub-menu-title-border:#747273;
+$theme-elegant-vertical-menu-shadow:#d8d8d8;
+$theme-elegant-k-grid-row-hover:#ededed;
+$theme-elegant-k-grid-row-selected:rgba(41,41,41,0.2);
+$theme-elegant-checkbox-focus-shadow:rgba(41,41,41,.3);
+$theme-elegant-btn-info-bg:#0084c5;
+$theme-elegant-btn-info-focus-bg:#0274ad;
+$theme-elegant-vertical-menu-bg:#fff;
+$theme-elegant-top-icon-bg:#fff;
+$theme-elegant-top-icon-hover-bg:#aeebfd;
+
+//light theme variable
+$body-bg-light-color : #e9e9e9;
+$body-font-light-color : #59b2ff;
+$theme-light:#fff;
+$theme-light-hover:#434343;
+$theme-light-sidebar:#fafafa;
+$theme-light-sidebar-border:#eeeeee;
+$theme-light-grid-bg:#fafafa;
+$theme-light-grid-btn-border:#d5d5d5;
+$theme-light-menu-color:#fff;
+$theme-light-anchor:#e08600;
+$theme-light-menu-hover-bg:#fff;
+$theme-light-menu-hover-color:#59b2ff;
+$theme-light-sub-menu-box-shadow:#505050;
+$theme-light-sub-menu-box-mask:rgba(0,0,0,0.5);
+$theme-light-sub-menu-title-border:#747273;
+$theme-light-vertical-menu-shadow:#d8d8d8;
+$theme-light-k-grid-row-hover:#ededed;
+$theme-light-k-grid-row-selected:rgba(41,41,41,0.2);
+$theme-light-checkbox-focus-shadow:rgba(41,41,41,.3);
+$theme-light-btn-info-bg:#0084c5;
+$theme-light-btn-info-focus-bg:#0274ad;
+$theme-light-vertical-menu-bg:#59b2ff;
+$theme-light-top-icon:#59b2ff;
+$theme-light-top-icon-hover:#2983d1;
+$theme-light-dialog-header-bg-color : #59b2ff;
+$theme-light-checkbox-checked-color:#59b2ff;
+
+
+
+//light theme variable
+$body-bg-dark-color : #252735;
+$body-font-dark-color : #e9ecef;
+$theme-dark:#252735;
+$theme-dark-hover:#434343;
+$theme-dark-sidebar:#fafafa;
+$theme-dark-sidebar-border:#eeeeee;
+$theme-dark-grid-bg:#2a3142;
+$theme-dark-grid-btn-border:#646988;
+$theme-dark-menu-color:#8699ad;
+$theme-dark-anchor:#e83e8c;
+$theme-dark-menu-hover-bg:#2f374a;
+$theme-dark-menu-hover-color:#b4c9de;
+$theme-dark-sub-menu-box-shadow:#505050;
+$theme-dark-sub-menu-box-mask:rgba(0,0,0,0.5);
+$theme-dark-sub-menu-title-border:#747273;
+$theme-dark-vertical-menu-shadow:#d8d8d8;
+$theme-dark-k-grid-row-hover:#191b25;
+$theme-dark-k-grid-row-selected:rgba(41,41,41,0.2);
+$theme-dark-checkbox-focus-shadow:rgba(41,41,41,.3);
+$theme-dark-btn-info-bg:#8699ad;
+$theme-dark-btn-info-focus-bg:#646988;
+$theme-dark-vertical-menu-bg:#020202;
+$theme-dark-top-icon:#dee2e6;
+$theme-dark-top-icon-hover:rgb(179, 181, 184);
+$theme-dark-form-control-font-color:#bbb4b4;
+$theme-dark-checkbox-selected-bg-color:#646988;
+$theme-dark-checkbox-selected-font-color:#dee2e6;
+$theme-dark-pagination-bg:#d8d8d8;
+
+//custom theme variable
+$body-bg-custom-color : #fff;
+$body-font-custom-color : #0582be;
+$theme-custom:#5bc0de;
+$theme-custom-border:#d8dde4;
+$theme-custom-hover:#434343;
+$theme-custom-sidebar:#fafafa;
+$theme-custom-sidebar-border:#eeeeee;
+$theme-custom-btn-bg:#d8f2fa;
+$theme-custom-grid-bg:#f1f7f9;
+$theme-custom-grid-btn-border:#aacfda;
+$theme-custom-menu-color:#898989;
+$theme-custom-anchor:#e08600;
+$theme-custom-menu-hover-bg:#f9f9f9;
+$theme-custom-sub-menu-box-shadow:#505050;
+$theme-custom-sub-menu-box-mask:rgba(0,0,0,0.5);
+$theme-custom-sub-menu-title-border:#747273;
+$theme-custom-vertical-menu-shadow:#d8d8d8;
+$theme-custom-k-grid-row-hover:#ededed;
+$theme-custom-k-grid-row-selected:rgba(41,41,41,0.2);
+$theme-custom-checkbox-focus-shadow:rgba(41,41,41,.3);
+$theme-custom-btn-info-bg:#0084c5;
+$theme-custom-btn-info-focus-bg:#0274ad;
+$theme-custom-vertical-menu-bg:#fff;
+$theme-custom-setting-submenu-bg:#ebebeb;
+
+
+//coffee theme variable
+$body-bg-coffee-color : #fff;
+$body-font-coffee-color : #6d2d27;
+$theme-coffee:#45221f;
+$theme-coffee-border:#d8dde4;
+$theme-coffee-hover:#434343;
+$theme-coffee-sidebar:#fafafa;
+$theme-coffee-sidebar-border:#eeeeee;
+$theme-coffee-btn-bg:#fff;
+$theme-coffee-grid-bg:#6d2d27;
+$theme-coffee-grid-btn-border:#fff;
+$theme-coffee-menu-color:#898989;
+$theme-coffee-anchor:#e08600;
+$theme-coffee-menu-hover-bg:#f9f9f9;
+$theme-coffee-sub-menu-box-shadow:#505050;
+$theme-coffee-sub-menu-box-mask:rgba(0,0,0,0.5);
+$theme-coffee-sub-menu-title-border:#747273;
+$theme-coffee-vertical-menu-shadow:#d8d8d8;
+$theme-coffee-k-grid-row-hover:#ededed;
+$theme-coffee-k-grid-row-selected:rgba(41,41,41,0.2);
+$theme-coffee-checkbox-focus-shadow:rgba(41,41,41,.3);
+$theme-coffee-btn-info-bg:#fff;
+$theme-coffee-btn-info-focus-bg:#fff;
+$theme-coffee-vertical-menu-bg:#fff;
+$theme-coffee-top-icon-color:#b79693;
+$theme-coffee-top-icon-hover-color:#cfb2af;
+$theme-coffee-checkbox-checked-color:#6d2d27;

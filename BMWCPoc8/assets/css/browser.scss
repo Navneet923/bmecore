@@ -1,0 +1,23 @@
+//browser specific css
+
+/* Mozilla - @supports method */ 
+@-moz-document url-prefix() { 
+    
+  } 
+
+/* Microsoft Edge Browser 12+ (All) - @supports method */ 
+@supports (-ms-ime-align:auto) {
+   
+  }
+
+/* Microsoft Edge Browser 15+ - @supports method */   
+  @supports (-ms-ime-align:auto)
+  and (-webkit-text-stroke:initial) {
+   
+  }
+
+  /* IE10+ CSS styles go here */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ 
+  
+}
